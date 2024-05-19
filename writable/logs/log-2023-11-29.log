@@ -1,0 +1,46 @@
+CRITICAL - 2023-11-29 07:27:02 --> Class "Config\Service" not found
+in APPPATH\Controllers\Produk.php on line 157.
+ 1 APPPATH\Controllers\Produk.php(95): App\Controllers\Produk->upload_image()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kerjaan\\web-dev\\materi praktek\\cart_online_4nim\\public\\index.php')
+CRITICAL - 2023-11-29 07:28:13 --> Undefined variable $upload_image
+in APPPATH\Controllers\Produk.php on line 97.
+ 1 APPPATH\Controllers\Produk.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $upload_image', 'D:\\Kerjaan\\web-dev\\materi praktek\\cart_online_4nim\\app\\Controllers\\Produk.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kerjaan\\web-dev\\materi praktek\\cart_online_4nim\\public\\index.php')
+CRITICAL - 2023-11-29 07:28:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Produk.php on line 137.
+ 1 APPPATH\Controllers\Produk.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Kerjaan\\web-dev\\materi praktek\\cart_online_4nim\\app\\Controllers\\Produk.php', 137)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->ubah()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kerjaan\\web-dev\\materi praktek\\cart_online_4nim\\public\\index.php')
+CRITICAL - 2023-11-29 07:49:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Produk.php(112): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kerjaan\\web-dev\\materi praktek\\cart_online_4nim\\public\\index.php')
+CRITICAL - 2023-11-29 07:50:01 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Produk.php(112): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kerjaan\\web-dev\\materi praktek\\cart_online_4nim\\public\\index.php')

@@ -1,0 +1,115 @@
+INFO - 2023-12-13 08:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 09:16:50 --> Invalid file: "template/call_head.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/call_head.php')
+ 2 SYSTEMPATH\View\View.php(469): CodeIgniter\View\View->render('template/call_head', null, true)
+ 3 APPPATH\Views\template\layout.php(2): CodeIgniter\View\View->include('template/call_head')
+ 4 SYSTEMPATH\View\View.php(228): include('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\app\\Views\\template\\layout.php')
+ 5 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render('template/layout', [], true)
+ 7 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('login/form', [], true)
+ 8 APPPATH\Controllers\Login.php(33): view('login/form', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Login->index()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\public\\index.php')
+INFO - 2023-12-13 09:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 09:27:51 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Produk.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 APPPATH\Controllers\Produk.php(179): App\Controllers\Produk->watermark_foto('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\writable\\../public/foto_produk/2023_12_13_09_27_50_67.jpg')
+ 9 APPPATH\Controllers\Produk.php(95): App\Controllers\Produk->upload_image()
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\public\\index.php')
+INFO - 2023-12-13 09:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:44:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 09:44:36 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Produk.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 APPPATH\Controllers\Produk.php(179): App\Controllers\Produk->watermark_foto('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\writable\\../public/foto_produk/2023_12_13_09_44_35_39.jpg')
+ 9 APPPATH\Controllers\Produk.php(95): App\Controllers\Produk->upload_image()
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\public\\index.php')
+INFO - 2023-12-13 09:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 09:44:54 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Produk.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 APPPATH\Controllers\Produk.php(179): App\Controllers\Produk->watermark_foto('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\writable\\../public/foto_produk/2023_12_13_09_44_54_18.jpg')
+ 9 APPPATH\Controllers\Produk.php(95): App\Controllers\Produk->upload_image()
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\public\\index.php')
+INFO - 2023-12-13 09:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-13 09:45:31 --> The framework needs the following extension(s) installed and loaded: "GD".
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 74.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(34): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('GD')
+ 2 SYSTEMPATH\Config\Services.php(347): CodeIgniter\Images\Handlers\GDHandler->__construct(Object(Config\Images))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image('gd', Object(Config\Images), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [...])
+ 5 SYSTEMPATH\Config\Services.php(338): CodeIgniter\Config\BaseService::getSharedInstance('image', null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::image()
+ 7 APPPATH\Controllers\Produk.php(199): CodeIgniter\Config\BaseService::__callStatic('image', [])
+ 8 APPPATH\Controllers\Produk.php(179): App\Controllers\Produk->watermark_foto('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\writable\\../public/foto_produk/2023_12_13_09_45_31_66.jpg')
+ 9 APPPATH\Controllers\Produk.php(95): App\Controllers\Produk->upload_image()
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Produk->proses_input()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\AMIKOM\\WEBSITE LAB\\cart_online_0831\\public\\index.php')
+INFO - 2023-12-13 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-13 09:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
